@@ -1,6 +1,9 @@
 name = "routed-worker"
 type = "webpack"
-account_id = ""
+account_id = "4955c8c28610ecabc384d84a20458a53"
 workers_dev = true
-route = ""
-zone_id = ""
+
+[env.production]
+workers_dev = false
+route = "smplrspace.dev/api/*"
+zone_id = "63b9e375e3d121ac8728a2e85553c176"
